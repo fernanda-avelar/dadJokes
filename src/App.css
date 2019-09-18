@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  padding: 150px 20px 10px 20px;
+}
+
+.logo {
+  display: inline-block;
+  width: 35%;
+  margin-bottom: 5rem;
+}
+
+.jokes-list {
+  margin-top: 2rem;
+  text-align: left;
+  list-style: none;
+}
+
+.jokes-list > li {
+  padding: 1rem;
+  margin: 0;
+}
+
+.jokes-list > li:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.jokes-list > li:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.01);
+}
